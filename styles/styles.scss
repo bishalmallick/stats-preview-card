@@ -41,6 +41,7 @@ body {
     overflow: hidden;
     width: 71.62em;
     height: 29em;
+    margin: 2em;
 }
 
 .card {
@@ -66,6 +67,7 @@ body {
 .sub-card {
     @include flexCenter();
     justify-content: space-between;
+    margin-top: 2em;
     .card-head {
         h3 {
             color: $heading;
