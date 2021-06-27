@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import './media';
+// background colors
+
+$dark-blue: hsl(233, 47%, 7%);
+$light-blue: hsl(244, 38%, 16%);
+$violet: hsl(277, 64%, 61%);
+
+//text colors
+
+$heading: hsl(0, 0%, 100%);
+$paragraph: hsla(0, 0%, 100%, 0.75);
+$stat-head: hsla(0, 0%, 100%, 0.6);
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+}
+
+@mixin flexCenter() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    @include flexCenter();
+    height: 100vh;
+    background-color: $dark-blue;
+}
+
+.main-section {
+    @include flexCenter();
+    background-color: $light-blue;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 71.62em;
+    height: 29em;
+}
+
+.card {
+    flex-basis: 100%;
+    height: 100%;
+    padding: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    h1 {
+        color: $heading;
+        line-height: 1.5em;
+    }
+    p {
+        color: $paragraph;
+        line-height: 2em;
+    }
+    span {
+        color: $violet;
+    }
+}
+
+.sub-card {
+    @include flexCenter();
+    justify-content: space-between;
+    .card-head {
+        h3 {
+            color: $heading;
+            font-size: 1.5rem;
+        }
+        p {
+            text-transform: uppercase;
+        }
+    }
+}
+
+.card-img {
+    flex-basis: 100%;
+    height: 100%;
+    background-color: $violet;
+}
+
+.hero-img {
+    display: block;
+    max-height: 100%;
+    mix-blend-mode: multiply;
+}
+
+.mob-img {
+    display: none;
+}
+
+.attribution {
+    background-color: $light-blue;
+    font-size: 1em;
+    text-align: center;
+    color: $heading;
+    padding: 10px;
+    a {
+        text-decoration: none;
+        color: $violet;
+        font-weight: bold;
+    }
+}
+

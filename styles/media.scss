@@ -1,0 +1,49 @@
+@media (max-width: 800px) {
+    .container {
+        .main-section {
+            flex-direction: column;
+            height: auto;
+            width: 21em;
+            margin: 2em;
+        }
+
+        .card {
+            order: 2;
+            padding: 2em;
+            text-align: center;
+            p {
+                margin: 1em 0;
+            }
+        }
+
+        .sub-card {
+            flex-direction: column;
+            text-align: center;
+            .card-head {
+                margin-top: 1em;
+            }
+        }
+
+        .card-img {
+            height: auto;
+            width: 100%;
+            .hero-img {
+                display: none;
+                height: auto;
+                width: 100%;
+            }
+            .mob-img {
+                display: block;
+                height: auto;
+                width: 100%;
+                mix-blend-mode: multiply;
+            }
+        }
+    }
+
+    body {
+        .container {
+            height: auto;
+        }
+    }
+}
