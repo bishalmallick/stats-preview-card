@@ -12,7 +12,6 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
   - [What I learned](#what-i-learned)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -47,7 +46,5 @@ I learned the use of Sass. For the first time I used Sass in a project and I got
 - Website - [Bishal Mallick](https://bishalmallick.github.io/myPortfolio)
 - Frontend Mentor - [@bishalmallick](https://www.frontendmentor.io/profile/bishalmallick)
 - Github - [@bishalmallick](https://github.com/bishalmallick)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 
